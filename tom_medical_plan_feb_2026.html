@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tom's Medical Action Plan: Feb 2026</title>
+    <!-- Bootstrap CSS for clean styling -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            line-height: 1.6;
+            padding-bottom: 3rem;
+        }
+        .container {
+            max-width: 900px;
+            margin-top: 2rem;
+            background: #fff;
+            padding: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #e9ecef;
+            padding-bottom: 1rem;
+            margin-bottom: 2rem;
+        }
+        h2 {
+            color: #0d6efd; /* Bootstrap Primary Blue */
+            margin-top: 2rem;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+        h3 {
+            color: #495057;
+            font-size: 1.2rem;
+            margin-top: 1.5rem;
+            font-weight: 600;
+        }
+        .action-box {
+            background-color: #e7f1ff;
+            border-left: 5px solid #0d6efd;
+            padding: 1.5rem;
+            border-radius: 4px;
+            margin-bottom: 2rem;
+        }
+        .med-card {
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            background-color: #fff;
+        }
+        .med-header {
+            font-weight: bold;
+            font-size: 1.1rem;
+            color: #2c3e50;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .badge-custom {
+            font-size: 0.85rem;
+            padding: 0.4em 0.8em;
+            border-radius: 4px;
+        }
+        .badge-voices { background-color: #d1e7dd; color: #0f5132; }
+        .badge-weight { background-color: #fff3cd; color: #664d03; }
+        .badge-energy { background-color: #cfe2ff; color: #084298; }
+        
+        .context-note {
+            background-color: #f8f9fa;
+            border: 1px solid #dee2e6;
+            padding: 1rem;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            color: #6c757d;
+            margin-top: 2rem;
+        }
+        .checkbox-list li {
+            margin-bottom: 0.75rem;
+            font-size: 1.05rem;
+        }
+        .warning-text {
+            color: #dc3545;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Tom's Medical Action Plan</h1>
+    <p class="lead">Summary of next steps following the doctor's visit on February 3, 2026.</p>
+
+    <!-- SECTION 1: ACTION ITEMS -->
+    <div class="action-box">
+        <h2><i class="bi bi-check-circle-fill"></i> Immediate Action Items</h2>
+        <ul class="list-unstyled checkbox-list">
+            <li>
+                <input class="form-check-input me-2" type="checkbox" id="step1">
+                <label for="step1"><strong>GeneSight Insurance Check:</strong> Call the number on your insurance card (Dad's plan). Ask specifically: "Is pharmacogenomic testing (GeneSight) a covered benefit, and what would my co-payment be?"</label>
+            </li>
+            <li>
+                <input class="form-check-input me-2" type="checkbox" id="step1b">
+                <label for="step1b"><strong>Doctor's Office Follow-up:</strong> Check with the nurse <em>after</em> you have completed the financial assistance paperwork to see how that affects the cost of the test.</label>
+            </li>
+            <li>
+                <input class="form-check-input me-2" type="checkbox" id="step_new_1">
+                <label for="step_new_1"><strong>Enroll in "Cobenfy Cares":</strong> Go to <a href="https://www.cobenfycares.com" target="_blank">CobenfyCares.com</a> or call <strong>1-877-262-3639</strong>. Sign up for the "Co-pay Assistance Program" (since you have insurance).</label>
+            </li>
+            <li>
+                <input class="form-check-input me-2" type="checkbox" id="step_new_2">
+                <label for="step_new_2"><strong>Get Lybalvi Savings Card:</strong> Go to <a href="https://www.lybalvi.com" target="_blank">Lybalvi.com</a> or call <strong>1-844-592-2584</strong> to download the savings card.</label>
+            </li>
+            <li>
+                <input class="form-check-input me-2" type="checkbox" id="step3">
+                <label for="step3"><strong>Insurance Check:</strong> Call your insurance provider (Dad's plan) to ask about coverage for these specific brand-name medications.</label>
+            </li>
+            <li>
+                <input class="form-check-input me-2" type="checkbox" id="step4">
+                <label for="step4"><strong>Clinic Paperwork:</strong> Fill out the "Sliding Fee Scale" paperwork at the front desk. Since you currently have $0 income (until the first paycheck), you likely qualify for reduced costs.</label>
+            </li>
+            <li>
+                <input class="form-check-input me-2" type="checkbox" id="step5">
+                <label for="step5"><strong>Start Samples:</strong> Begin taking the <strong>Cobenfy</strong> samples as directed by the doctor.</label>
+            </li>
+        </ul>
+    </div>
+
+    <hr>
+
+    <!-- SECTION 2: DISCUSSION SUMMARY -->
+    <h2><i class="bi bi-journal-medical"></i> Discussion Summary & Options</h2>
+    
+    <h3>1. GeneSight Testing (Genetic Analysis)</h3>
+    <div class="med-card">
+        <p><strong>What it is:</strong> A cheek swab test that analyzes your DNA to see how your body processes psychiatric medications.</p>
+        <ul>
+            <li><strong>Benefit:</strong> Reduces "trial and error." It tells the doctor which meds work best for <em>your</em> body and which ones might cause bad side effects.</li>
+            <li><strong>Cost:</strong> Typically free for Medicaid/Medicare. For commercial insurance (like yours), 98% of people pay $330 or less. Financial assistance is available if income is low.</li>
+        </ul>
+    </div>
+
+    <h3>2. Medication Plan</h3>
+    
+    <!-- Med 1 -->
+    <div class="med-card">
+        <div class="med-header">
+            <span>Cobenfy (Xanomeline/Trospium)</span>
+            <span class="badge-custom badge-voices">For Voices/Hallucinations</span>
+        </div>
+        <p class="mt-2"><strong>The Goal:</strong> To stop the auditory hallucinations.</p>
+        <ul>
+            <li><strong>Why this is good:</strong> It targets different receptors than older drugs. It <strong>does not</strong> usually cause weight gain or sleepiness (great for your new job).</li>
+            <li><strong>Speed:</strong> Often works fast (2-3 days).</li>
+            <li><strong>Risks/Side Effects:</strong> Nausea, indigestion, or high blood pressure.</li>
+        </ul>
+    </div>
+
+    <!-- Med 2 -->
+    <div class="med-card">
+        <div class="med-header">
+            <span>Lybalvi (Olanzapine + Samidorphan)</span>
+            <span class="badge-custom badge-weight">For Mood & Weight Control</span>
+        </div>
+        <p class="mt-2"><strong>The Goal:</strong> To replace your current Olanzapine with a version that stops weight gain.</p>
+        <ul>
+            <li><strong>Why this is good:</strong> Olanzapine works well for your mood, but causes weight gain. The added ingredient (Samidorphan) helps block that weight gain side effect.</li>
+            <li><strong>CRITICAL WARNING:</strong> <span class="warning-text">DO NOT take with opioids (painkillers).</span> It blocks opioid receptors, which can cause severe withdrawal or prevent pain meds from working.</li>
+            <li><strong>Status:</strong> Waiting on insurance approval (Prior Authorization).</li>
+        </ul>
+    </div>
+
+    <!-- Med 3 -->
+    <div class="med-card">
+        <div class="med-header">
+            <span>Current Olanzapine (Zyprexa)</span>
+            <span class="badge-custom badge-energy">Energy Management</span>
+        </div>
+        <p class="mt-2"><strong>The Change:</strong> Lowering dose from <strong>20mg to 15mg</strong>.</p>
+        <ul>
+            <li><strong>Why:</strong> To help you feel less tired/sedated, which is crucial as you start your new job at Hy-Vee next week.</li>
+        </ul>
+    </div>
+
+    <!-- SECTION 3: FINANCIAL ASSISTANCE RESOURCES -->
+    <h2><i class="bi bi-cash-coin"></i> Financial Assistance Resources</h2>
+    <p>Since you are currently on commercial insurance (Dad's plan) but have low income, you likely qualify for <strong>Manufacturer Co-pay Cards</strong> which can bring your cost down to <strong>$0</strong>. This is different from the "Sliding Fee" at the clinic—you can use both.</p>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card h-100 border-primary">
+                <div class="card-header bg-primary text-white">
+                    <strong>For Cobenfy (Voices)</strong>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Program: "Cobenfy Cares"</h5>
+                    <p class="card-text">Since you have commercial insurance, you should qualify for their Co-pay program to pay as little as $0.</p>
+                    <ul class="list-group list-group-flush mb-3">
+                        <li class="list-group-item"><strong>Phone:</strong> <a href="tel:18772623639">1-877-262-3639</a> (1-877-COBENFY)</li>
+                        <li class="list-group-item"><strong>Website:</strong> <a href="https://www.cobenfycares.com" target="_blank">CobenfyCares.com</a></li>
+                        <li class="list-group-item"><strong>For Low Income/Uninsured:</strong> Bristol Myers Squibb Patient Assistance Foundation (<a href="http://bmspaf.org" target="_blank">bmspaf.org</a>). <em>Check this if insurance denies coverage.</em></li>
+                    </ul>
+                    <a href="https://www.cobenfy.com/sign-up" target="_blank" class="btn btn-outline-primary btn-sm">Enroll Online</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card h-100 border-success">
+                <div class="card-header bg-success text-white">
+                    <strong>For Lybalvi (Weight/Mood)</strong>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Program: "Lybalvi Co-pay Savings"</h5>
+                    <p class="card-text">Manufacturer program to lower your out-of-pocket cost, potentially to $0.</p>
+                    <ul class="list-group list-group-flush mb-3">
+                        <li class="list-group-item"><strong>Phone:</strong> <a href="tel:18445922584">1-844-592-2584</a> (1-844-LYBALVI)</li>
+                        <li class="list-group-item"><strong>Website:</strong> <a href="https://www.lybalvi.com" target="_blank">Lybalvi.com</a></li>
+                        <li class="list-group-item"><strong>Note:</strong> Ask specifically for the "Co-pay Savings Card" since you have insurance.</li>
+                    </ul>
+                    <a href="https://www.lybalvi.com/bipolar1-schizophrenia/savings-support/" target="_blank" class="btn btn-outline-success btn-sm">Get Savings Card</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="alert alert-secondary mt-4">
+        <h5><i class="bi bi-credit-card-2-front"></i> Backup Option: Nebraska RX Card</h5>
+        <p><strong>What it is:</strong> A free discount card for Nebraska residents (not insurance). <br>
+        <strong>When to use:</strong> Only if your insurance <em>denies</em> the medication entirely AND the manufacturer programs above can't help. It typically gives a discount (up to 80%) rather than a $0 copay.</p>
+        <a href="https://nebraskarxcard.com/" target="_blank" class="btn btn-sm btn-secondary">Visit NebraskaRXCard.com</a>
+    </div>
+
+    <!-- SECTION 4: CONTEXT -->
+    <div class="context-note">
+        <h5><i class="bi bi-info-circle"></i> Your Insurance & Financial Context</h5>
+        <p>
+            <strong>Current Coverage:</strong> You are covered under your Dad's insurance plan until <strong>May 1, 2027</strong>. This gives you over a year of stability.<br>
+            <strong>Job Impact:</strong> You start at Hy-Vee on Feb 9 ($15/hr, 30 hrs/wk). While this income helps, you will likely still qualify for financial assistance programs at the clinic in the short term.<br>
+            <strong>Long Term:</strong> The goal is to eventually transition to Medicaid or your own employer insurance before May 2027.
+        </p>
+    </div>
+
+</div>
+
+<!-- Bootstrap JS (Optional) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

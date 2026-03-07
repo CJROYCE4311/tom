@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tom's Benefit Protection Plan — February 2026</title>
+<style>
+  :root {
+    --red: #c0392b;
+    --red-light: #fdf0ef;
+    --red-border: #e8a49e;
+    --yellow: #d4a017;
+    --yellow-light: #fefae8;
+    --yellow-border: #f0d98a;
+    --green: #1a7a4a;
+    --green-light: #edf7f2;
+    --green-border: #8ecfac;
+    --blue: #1a4f7a;
+    --blue-light: #eef4fb;
+    --blue-border: #8ab4d8;
+    --gray: #4a4a4a;
+    --gray-light: #f5f5f5;
+    --border: #ddd;
+    --font: 'Georgia', serif;
+    --mono: 'Courier New', monospace;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: var(--font);
+    font-size: 15px;
+    line-height: 1.65;
+    color: var(--gray);
+    background: #fff;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 32px 24px;
+  }
+
+  @media print {
+    body { padding: 0; font-size: 13px; }
+    .no-print { display: none; }
+    .page-break { page-break-before: always; }
+    a { color: inherit; text-decoration: none; }
+  }
+
+  /* Header */
+  .doc-header {
+    border-bottom: 3px solid var(--blue);
+    padding-bottom: 18px;
+    margin-bottom: 28px;
+  }
+  .doc-header h1 {
+    font-size: 24px;
+    color: var(--blue);
+    margin-bottom: 4px;
+  }
+  .doc-header .subtitle {
+    font-size: 13px;
+    color: #777;
+    font-family: var(--mono);
+    letter-spacing: 0.04em;
+  }
+  .confidential {
+    display: inline-block;
+    background: var(--red);
+    color: white;
+    font-size: 10px;
+    font-family: var(--mono);
+    letter-spacing: 0.1em;
+    padding: 2px 8px;
+    border-radius: 2px;
+    margin-top: 6px;
+    text-transform: uppercase;
+  }
+
+  /* Section headers */
+  h2 {
+    font-size: 17px;
+    color: var(--blue);
+    border-left: 4px solid var(--blue);
+    padding-left: 10px;
+    margin: 32px 0 14px;
+  }
+  h3 {
+    font-size: 14px;
+    color: var(--gray);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin: 20px 0 8px;
+    font-family: var(--mono);
+  }
+
+  /* Deadline cards */
+  .deadline-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin: 16px 0 28px;
+  }
+  .deadline-card {
+    border: 2px solid var(--red-border);
+    background: var(--red-light);
+    border-radius: 6px;
+    padding: 16px 18px;
+  }
+  .deadline-card .date {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--red);
+    font-family: var(--mono);
+    margin-bottom: 4px;
+  }
+  .deadline-card .days-left {
+    font-size: 11px;
+    color: var(--red);
+    font-family: var(--mono);
+    margin-bottom: 8px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .deadline-card .task {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+  .deadline-card .detail {
+    font-size: 12px;
+    color: #666;
+    line-height: 1.4;
+  }
+
+  /* Alert boxes */
+  .alert {
+    border-radius: 5px;
+    padding: 14px 18px;
+    margin: 14px 0;
+    border-left: 5px solid;
+  }
+  .alert.red {
+    background: var(--red-light);
+    border-color: var(--red);
+  }
+  .alert.yellow {
+    background: var(--yellow-light);
+    border-color: var(--yellow);
+  }
+  .alert.green {
+    background: var(--green-light);
+    border-color: var(--green);
+  }
+  .alert.blue {
+    background: var(--blue-light);
+    border-color: var(--blue);
+  }
+  .alert strong { display: block; margin-bottom: 4px; }
+
+  /* Tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    margin: 12px 0 18px;
+  }
+  th {
+    background: var(--gray-light);
+    text-align: left;
+    padding: 8px 10px;
+    font-family: var(--mono);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #555;
+    border-bottom: 2px solid var(--border);
+  }
+  td {
+    padding: 8px 10px;
+    border-bottom: 1px solid #eee;
+    vertical-align: top;
+  }
+  tr:last-child td { border-bottom: none; }
+  .td-match-yes { color: var(--green); font-weight: bold; }
+  .td-match-warn { color: var(--yellow); font-weight: bold; }
+  .td-match-no { color: var(--red); font-weight: bold; }
+
+  /* Checklist */
+  .phase-block {
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    margin: 14px 0;
+    overflow: hidden;
+  }
+  .phase-header {
+    padding: 10px 16px;
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .phase-header.red { background: var(--red); color: white; }
+  .phase-header.yellow { background: var(--yellow); color: white; }
+  .phase-header.green { background: var(--green); color: white; }
+  .phase-header.blue { background: var(--blue); color: white; }
+  .phase-body { padding: 12px 16px; }
+  .checklist { list-style: none; padding: 0; }
+  .checklist li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 7px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 13px;
+    line-height: 1.45;
+  }
+  .checklist li:last-child { border-bottom: none; }
+  .checkbox {
+    flex-shrink: 0;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #bbb;
+    border-radius: 3px;
+    margin-top: 1px;
+    background: white;
+    display: inline-block;
+  }
+  .checklist .owner {
+    font-size: 10px;
+    font-family: var(--mono);
+    background: var(--gray-light);
+    padding: 1px 6px;
+    border-radius: 10px;
+    color: #666;
+    white-space: nowrap;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+  .checklist .item-text { flex: 1; }
+  .checklist .item-text strong { display: block; }
+
+  /* Status meter */
+  .meter-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 6px 0;
+    font-size: 13px;
+  }
+  .meter-label { min-width: 220px; }
+  .meter-bar {
+    flex: 1;
+    background: #eee;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .meter-fill {
+    height: 100%;
+    border-radius: 5px;
+  }
+  .meter-value {
+    min-width: 90px;
+    font-family: var(--mono);
+    font-size: 12px;
+    text-align: right;
+  }
+
+  /* Key numbers box */
+  .numbers-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin: 14px 0;
+  }
+  .number-card {
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    padding: 12px;
+    text-align: center;
+  }
+  .number-card .num {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: var(--mono);
+    color: var(--blue);
+    display: block;
+  }
+  .number-card .num.danger { color: var(--red); }
+  .number-card .num.safe { color: var(--green); }
+  .number-card .label {
+    font-size: 11px;
+    color: #777;
+    margin-top: 3px;
+    line-height: 1.3;
+  }
+
+  /* Contact cards */
+  .contacts-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 12px 0;
+  }
+  .contact-card {
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    padding: 10px 12px;
+    font-size: 12px;
+  }
+  .contact-card .name { font-weight: bold; font-size: 13px; margin-bottom: 3px; }
+  .contact-card .phone { font-family: var(--mono); color: var(--blue); }
+  .contact-card .note { color: #777; margin-top: 3px; font-size: 11px; }
+
+  /* Scenario block */
+  .scenario {
+    border: 1px dashed var(--border);
+    border-radius: 5px;
+    padding: 14px 18px;
+    margin: 12px 0;
+    font-size: 13px;
+  }
+  .scenario h4 {
+    font-size: 13px;
+    margin-bottom: 8px;
+    color: var(--blue);
+  }
+
+  p { margin: 8px 0; }
+  ul { margin: 8px 0 8px 20px; }
+  ul li { margin: 4px 0; font-size: 13px; }
+  .mono { font-family: var(--mono); }
+</style>
+</head>
+<body>
+
+<div class="doc-header">
+  <h1>Tom Burbach — Benefit Protection &amp; Strategy Plan</h1>
+  <div class="subtitle">Prepared: February 25, 2026 &nbsp;|&nbsp; Thomas Andrew Burbach, DOB April 28, 1999 &nbsp;|&nbsp; Lincoln, NE</div>
+  <div class="confidential">Confidential — Family Use Only</div>
+</div>
+
+<!-- ================================================ -->
+<h2>The Core Problem</h2>
+<!-- ================================================ -->
+
+<p>Tom started working at Hy-Vee on February 9, 2026. That's good. But his income (~$1,950/month) now creates a technical conflict with two benefit systems that he absolutely needs as a fallback if the job doesn't last. The goal of this plan is to <strong>protect those benefits now</strong>, while he's still working — so that if the job ends, he has a safety net in place.</p>
+
+<div class="alert red">
+  <strong>The Risk</strong>
+  Tom's history shows a pattern: employment → psychiatric crisis → job loss → homelessness → treatment → repeat. If his benefits are not properly structured before the current job ends, he may lose income and coverage simultaneously. That is the worst possible outcome and it is preventable.
+</div>
+
+<div class="alert blue">
+  <strong>The Strategic Frame</strong>
+  Tom's pattern of failed work attempts is <em>evidence of disability</em>, not evidence that he doesn't need benefits. Social Security adjudicators and judges understand this. Every short job he's had strengthens the disability claim — as long as it's documented correctly.
+</div>
+
+<!-- ================================================ -->
+<h2>Immediate Deadlines — Do Not Miss These</h2>
+<!-- ================================================ -->
+
+<div class="deadline-grid">
+  <div class="deadline-card">
+    <div class="date">March 1, 2026</div>
+    <div class="days-left">4 days away</div>
+    <div class="task">Respond to California DDS</div>
+    <div class="detail">
+      Submit all requested medical and work history information to Social Security's disability examiner.<br><br>
+      <strong>Mr. Childs</strong><br>
+      Phone: (619) 278-4753<br>
+      Case ID: 16321562<br><br>
+      If the response will be incomplete, call today to request a 15-day extension.
+    </div>
+  </div>
+  <div class="deadline-card">
+    <div class="date">March 20, 2026</div>
+    <div class="days-left">23 days away</div>
+    <div class="task">Submit UHC Insurance Card to Nebraska Medicaid</div>
+    <div class="detail">
+      Nebraska Medicaid needs proof of Tom's other insurance (UHC/Haleon) to coordinate benefits. Must submit front and back of the UHC card.<br><br>
+      <strong>Fax:</strong> (402) 742-2351<br>
+      <strong>Email:</strong> DHHS.ANDICENTER@nebraska.gov<br><br>
+      Missing this deadline risks a "failure to cooperate" termination of Medicaid.
+    </div>
+  </div>
+</div>
+
+<!-- ================================================ -->
+<h2>Key Numbers</h2>
+<!-- ================================================ -->
+
+<div class="numbers-grid">
+  <div class="number-card">
+    <span class="num danger">$1,950</span>
+    <div class="label">Tom's monthly Hy-Vee income (est.)<br>30 hrs/wk × $15/hr</div>
+  </div>
+  <div class="number-card">
+    <span class="num danger">$1,690</span>
+    <div class="label">2026 SGA limit<br>Income above this can block SSI/SSDI</div>
+  </div>
+  <div class="number-card">
+    <span class="num danger">$1,733</span>
+    <div class="label">Heritage Health Adult income limit<br>Tom is over by ~$217/month</div>
+  </div>
+  <div class="number-card">
+    <span class="num safe">$3,130</span>
+    <div class="label">MIWD income limit (no premium)<br>Tom's correct Medicaid category</div>
+  </div>
+  <div class="number-card">
+    <span class="num safe">$261</span>
+    <div class="label">Monthly medical expenses needed<br>to bring countable income below SGA</div>
+  </div>
+  <div class="number-card">
+    <span class="num">Aug 9, 2026</span>
+    <div class="label">6-month UWA deadline<br>If job ends before this date, it's a "Failed Work Attempt" — does not count against SSI claim</div>
+  </div>
+</div>
+
+<!-- ================================================ -->
+<h2>Social Security — Protecting the Disability Claim</h2>
+<!-- ================================================ -->
+
+<h3>The "Failed Work Attempt" Asset</h3>
+
+<p>Tom's history of short employment followed by crisis is not a mark against him with Social Security — it is one of the strongest forms of evidence that he cannot sustain work. This must be framed and documented correctly.</p>
+
+<div class="alert green">
+  <strong>The Legal Tool: Unsuccessful Work Attempt (UWA)</strong>
+  Any job that ends within 6 months due to a disabling condition does not count as Substantial Gainful Activity. This means it cannot be used to deny the disability claim. If the Hy-Vee job ends before August 9, 2026, Tom's attorney or advocate files Form SSA-821 to formally classify it as a UWA.
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th>Employment Episode</th>
+      <th>Duration</th>
+      <th>What Followed</th>
+      <th>UWA Eligible?</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Prior job attempts (2020–2025)</td>
+      <td>Short-term, multiple attempts</td>
+      <td>Crisis, homelessness, treatment</td>
+      <td class="td-match-yes">Yes — already on record</td>
+    </tr>
+    <tr>
+      <td>Hy-Vee (Feb 9, 2026 – present)</td>
+      <td>Building toward UWA clock</td>
+      <td>TBD — document everything</td>
+      <td class="td-match-warn">Yes, if ends before Aug 9, 2026</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Reducing Countable Income Below the SGA Limit</h3>
+
+<p>Tom earns ~$1,950/month but needs countable income below $1,690 to avoid the SGA bar. Three tools reduce this number:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tool</th>
+      <th>How It Works</th>
+      <th>What Tom Needs to Do</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Impairment-Related Work Expenses (IRWE)</strong></td>
+      <td>Deduct out-of-pocket costs for medications, therapy, and transportation to appointments. Only needs $261/month to bring income below SGA.</td>
+      <td>Keep every receipt. Medication copays, therapy copays, bus fare to appointments all count.</td>
+    </tr>
+    <tr>
+      <td><strong>Employer Subsidy</strong></td>
+      <td>If Hy-Vee provides accommodations (slower pace, extra supervision, lenient attendance), the "value" of his work is reduced in SSA's calculation.</td>
+      <td>Document any accommodations. Optional: request a letter from Hy-Vee management.</td>
+    </tr>
+    <tr>
+      <td><strong>UWA Classification</strong></td>
+      <td>If the job ends within 6 months, the entire episode is excluded from SGA analysis via Form SSA-821.</td>
+      <td>File SSA-821 within 30 days of job termination if it ends before Aug 9.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Expediting the 6-Year-Old Claim</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tool</th>
+      <th>What It Does</th>
+      <th>How to Use It</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Dire Need / DRND Flag</strong></td>
+      <td>SSA flags cases for priority review when claimant faces threat to health or safety (past homelessness qualifies)</td>
+      <td>Call or visit the Lincoln SSA field office. Formally allege "Dire Need."</td>
+    </tr>
+    <tr>
+      <td><strong>Congressional Inquiry</strong></td>
+      <td>Every U.S. Senator and Representative has a dedicated SSA liaison. An inquiry forces a stalled claim into active review.</td>
+      <td>Contact Rep. Mike Flood, Sen. Deb Fischer, or Sen. Pete Ricketts. Miki can do this with Tom's written consent.</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- ================================================ -->
+<div class="page-break"></div>
+<h2>Nebraska Medicaid — The Critical Income Problem</h2>
+<!-- ================================================ -->
+
+<div class="alert red">
+  <strong>Tom Is Currently in the Wrong Medicaid Category</strong>
+  Tom was approved under Heritage Health Adult (ACA expansion), which has an income limit of ~$1,733/month. His Hy-Vee income is ~$1,950/month — he is over the limit. This means he is technically ineligible for his current Medicaid category. If this is caught at his annual redetermination without a fix in place, his Medicaid will be terminated.
+</div>
+
+<h3>The Solution: Transfer to MIWD</h3>
+
+<p>Nebraska's <strong>MIWD (Medicaid Insurance for Workers with Disabilities)</strong> program is specifically designed for working disabled adults. Tom's income, disability, and employment all fit it exactly — and he would owe <strong>zero monthly premium</strong>.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Requirement</th>
+      <th>Tom's Situation</th>
+      <th>MIWD Rule</th>
+      <th>Match</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Age</td>
+      <td>26</td>
+      <td>16–64</td>
+      <td class="td-match-yes">Yes</td>
+    </tr>
+    <tr>
+      <td>Disability</td>
+      <td>Schizophrenia — SSA pending; SRT pathway available</td>
+      <td>SSA determination OR Nebraska SRT</td>
+      <td class="td-match-warn">Needs formal determination</td>
+    </tr>
+    <tr>
+      <td>Earned income</td>
+      <td>~$1,950/month from Hy-Vee</td>
+      <td>Must have earned income</td>
+      <td class="td-match-yes">Yes</td>
+    </tr>
+    <tr>
+      <td>Income level</td>
+      <td>~149% FPL</td>
+      <td>101–250% FPL</td>
+      <td class="td-match-yes">Yes — no premium below 200% FPL</td>
+    </tr>
+    <tr>
+      <td>Assets</td>
+      <td>Likely low</td>
+      <td>Under $4,000</td>
+      <td class="td-match-yes">Likely yes</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Getting the Disability Determination Without Waiting for SSA</h3>
+
+<p>Tom doesn't have to wait for his SSDI application to be approved. Nebraska DHHS has its own <strong>State Review Team (SRT)</strong> that makes disability determinations using SSA's own criteria, independently and faster.</p>
+
+<div class="alert blue">
+  <strong>SRT Process</strong>
+  <ol style="margin: 6px 0 0 18px;">
+    <li>Call DHHS at 1-855-632-7633 — ask to apply for MIWD and request an SRT disability determination</li>
+    <li>Submit Tom's psychiatric records (diagnosis, medication history, functional limitations)</li>
+    <li>SRT reviews and approves → Tom transfers to MIWD → income is no longer a disqualifying factor</li>
+  </ol>
+</div>
+
+<div class="alert yellow">
+  <strong>Critical Warning</strong>
+  Do <em>not</em> voluntarily report Tom's income to DHHS and trigger a Heritage Health termination before the MIWD transfer is in place. Complete the MIWD application first, then the income is covered under the correct category.
+</div>
+
+<h3>How Tom's Two Insurance Cards Work Together</h3>
+
+<p>Tom has two insurances: UHC (through Kent/Haleon) and Nebraska Medicaid. Medicaid is <strong>always billed second</strong> — by federal law, it's the payer of last resort.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Step</th>
+      <th>What Happens</th>
+      <th>Tom's Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1. Provider visit</td>
+      <td>Tom checks in at the clinic or pharmacy</td>
+      <td>Give both cards — say "UHC is primary, Nebraska Medicaid is secondary"</td>
+    </tr>
+    <tr>
+      <td>2. Billing — primary</td>
+      <td>Provider bills UHC first; UHC pays its portion</td>
+      <td>Nothing — provider handles</td>
+    </tr>
+    <tr>
+      <td>3. Billing — secondary</td>
+      <td>Provider submits remaining balance to Medicaid with the UHC Explanation of Benefits (EOB)</td>
+      <td>Nothing — provider handles</td>
+    </tr>
+    <tr>
+      <td>4. Cost to Tom</td>
+      <td>Medicaid covers remaining copays/deductibles up to its allowable rate</td>
+      <td>Out-of-pocket cost: typically $0 on covered services</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="alert green">
+  <strong>Bottom Line</strong>
+  Tom should not pay copays at the desk without checking whether Medicaid covers them. The combination of UHC + Medicaid should result in near-zero out-of-pocket for covered services.
+</div>
+
+<!-- ================================================ -->
+<h2>Medications — Prior Authorization Status</h2>
+<!-- ================================================ -->
+
+<table>
+  <thead>
+    <tr>
+      <th>Medication</th>
+      <th>Coverage Status</th>
+      <th>Action Needed</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Generic Olanzapine</strong> (Zyprexa)<br><span style="color:#777;font-size:12px;">Current regimen — reducing to 15mg</span></td>
+      <td class="td-match-yes">Preferred on Medicaid PDL — no PA needed, $0 copay</td>
+      <td>None. Bill UHC first, Medicaid second.</td>
+    </tr>
+    <tr>
+      <td><strong>Lybalvi</strong> (olanzapine + samidorphan)<br><span style="color:#777;font-size:12px;">Goal: weight management</span></td>
+      <td class="td-match-warn">Non-preferred — Prior Authorization pending (as of Feb 3)</td>
+      <td>Follow up with psychiatrist's office on PA status. Clinical argument: samidorphan component necessary for weight management distinct from generic olanzapine.</td>
+    </tr>
+    <tr>
+      <td><strong>Cobenfy</strong> (xanomeline/trospium)<br><span style="color:#777;font-size:12px;">Targeting hallucinations — samples provided</span></td>
+      <td class="td-match-warn">Non-preferred — PA required; samples currently covering</td>
+      <td><strong>PA must be submitted before samples run out.</strong> Clinical argument: unique drug class (muscarinic agonist) — no comparable preferred drug exists. Manufacturer support: 1-877-262-3639</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- ================================================ -->
+<div class="page-break"></div>
+<h2>The Fallback Scenario — If Tom Loses the Job</h2>
+<!-- ================================================ -->
+
+<div class="alert yellow">
+  <strong>This Is the Whole Point of This Plan</strong>
+  Tom may not be able to hold this job. Schizophrenia, weight gain from medications, morning sedation, and the cycle of his illness all create real risk. The plan below is designed so that if the job ends, the benefit safety net is already in place — not something to scramble for afterward.
+</div>
+
+<div class="scenario">
+  <h4>Scenario A: Job ends before August 9, 2026 (before 6-month mark)</h4>
+  <ul>
+    <li><strong>SSA:</strong> File Form SSA-821 within 30 days. Classify Hy-Vee as an Unsuccessful Work Attempt. The employment will not count against the disability claim. The claim actually gets stronger — two UWAs separated by a psychiatric crisis is a primary indicator of schizophrenia's vocational impact.</li>
+    <li><strong>Medicaid:</strong> If in MIWD — report job loss to DHHS within 30 days via iServe. MIWD requires earned income; Tom transfers back to Heritage Health Adult (expansion) since his income returns to $0. Coverage continues without a gap if reported promptly.</li>
+    <li><strong>Income:</strong> Tom will need support from Jean, Jimmy, or other sources until SSI/SSDI is approved.</li>
+  </ul>
+</div>
+
+<div class="scenario">
+  <h4>Scenario B: Job ends after August 9, 2026 (6+ months)</h4>
+  <ul>
+    <li><strong>SSA:</strong> SSA will scrutinize this more closely — 6+ months of SGA-level earnings can be harder to frame as a UWA. However, if Tom's earnings were kept below SGA using IRWEs, or if SSA had already approved his claim, this is manageable.</li>
+    <li><strong>Trial Work Period (TWP):</strong> If SSDI is approved while he's working, he enters the TWP — 9 months in which he can earn any amount and still receive SSDI benefits. After TWP, the Extended Period of Eligibility (EPE) allows SSDI to resume in months he earns below SGA.</li>
+    <li><strong>Medicaid:</strong> Same as Scenario A — report loss, transfer back to Heritage Health Adult.</li>
+  </ul>
+</div>
+
+<div class="scenario">
+  <h4>Scenario C: SSDI is approved while Tom is still working</h4>
+  <ul>
+    <li>Tom enters the 9-month Trial Work Period — full SSDI benefits continue regardless of income during this period.</li>
+    <li>After TWP: 36-month Extended Period of Eligibility. SSDI payments continue in any month income falls below SGA ($1,690).</li>
+    <li>Medicare eligibility begins 24 months after SSDI start date — eventually supplements or replaces UHC/Haleon coverage.</li>
+    <li>Medicaid may continue (check MIWD eligibility with SSDI income) or Medicare becomes primary.</li>
+  </ul>
+</div>
+
+<!-- ================================================ -->
+<h2>Action Plan — Phased Checklist</h2>
+<!-- ================================================ -->
+
+<div class="phase-block">
+  <div class="phase-header red">🔴 &nbsp;Phase 1 — Urgent (by March 1, 2026)</div>
+  <div class="phase-body">
+    <ul class="checklist">
+      <li>
+        <span class="checkbox"></span>
+        <span class="owner">Miki + Tom</span>
+        <span class="item-text">
+          <strong>Respond to CA DDS (Mr. Childs) — March 1 deadline</strong>
+          Submit all requested medical and work history. Call (619) 278-4753 to confirm what's needed. If incomplete, request a 15-day extension today. Case ID: 16321562.
+        </span>
+      </li>
+      <li>
+        <span class="checkbox"></span>
+        <span class="owner">Miki</span>
+        <span class="item-text">
+          <strong>Initiate Congressional Inquiry</strong>
+          Contact Rep. Mike Flood, Sen. Deb Fischer, or Sen. Pete Ricketts — ask for SSA caseworker to flag Tom's stalled 2020 claim. Miki can do this with Tom's written consent.
+        </span>
+      </li>
+      <li>
+        <span class="checkbox"></span>
+        <span class="owner">Miki + Tom</span>
+        <span class="item-text">
+          <strong>Request Dire Need Flag at SSA</strong>
+          Call or visit Lincoln SSA field office. Formally allege "Dire Need" based on prior homelessness and psychiatric instability. Ask for case to be flagged for priority review.
+        </span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="phase-block">
+  <div class="phase-header red">🔴 &nbsp;Phase 2 — Medicaid Protection (by March 20, 2026)</div>
+  <div class="phase-body">
+    <ul class="checklist">
+      <li>
+        <span class="checkbox"></span>
+        <span class="owner">Miki + Tom</span>
+        <span class="item-text">
+          <strong>Submit UHC card to NE Medicaid — March 20 deadline</strong>
+          Fax front and back of UHC card to (402) 742-2351 or email to DHHS.ANDICENTER@nebraska.gov. Keep fax confirmation or email receipt.
+        </span>
+      </li>
+      <li>
+        <span class="checkbox"></span>
+        <span class="owner">Miki</span>
+        <span class="item-text">
+          <strong>Log into iServe and confirm Medicaid category</strong>
+          iserve.nebraska.gov — username: tomburbach99 / password: LNERockets99! Confirm whether Tom is enrolled under Heritage Health Adult or another category.
+        </span>
+      </li>
+      <li>
+        <span class="checkbox"></span>
+        <span class="owner">Miki</span>
+        <span class="item-text">
+          <strong>Call DHHS to initiate MIWD application and SRT disability determination</strong>
+          Phone: 1-855-632-7633. Ask specifically: "I want to apply for MIWD and request a State Review Team disability determination." Have Tom's psychiatrist contact info ready.
+        </span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="phase-block">
+  <div class="phase-header yellow">🟡 &nbsp;Phase 3 — Clinical &amp; Documentation (Days 1–15)</div>
+  <div class="phase-body">
+    <ul class="checklist">
+      <li>
+        <span class="checkbox"></span>
+        <span class="owner">Tom</span>
+        <span class="item-text">
+          <strong>Follow up on Lybalvi Prior Authorization</strong>
+          Call the psychiatrist's office and ask for the PA status. If pending, confirm they have everything they need. If denied, ask about appeal or Lilly patient assistance program.
+        </span>
+      </li>
+      <li>
+        <span class="checkbox"></span>
+        <span class="owner">Tom + Psychiatrist</span>
+        <span class="item-text">
+          <strong>Cobenfy PA — do not wait for samples to run out</strong>
+          Confirm psychiatrist's office has submitted or will submit a PA. Manufacturer support at 1-877-262-3639 can help navigate. Clinical argument: Cobenfy is a unique drug class with no comparable preferred alternative.
+        </span>
+      </li>
+      <li>
+        <span class="checkbox"></span>
+        <span class="owner">Tom</span>
+        <span class="item-text">
+          <strong>Complete sliding fee scale paperwork at the psychiatric clinic</strong>
+          This reduces Tom's out-of-pocket costs and is required to access financial aid. Do not skip this step.
+        </span>
+      </li>
+      <li>
+        <span class="checkbox"></span>
+        <span class="owner">Tom</span>
+        <span class="item-text">
+          <strong>Start keeping medical expense receipts for IRWE documentation</strong>
+          Any out-of-pocket costs for medications, therapy, or transportation to medical appointments can reduce Tom's "countable income" below the SGA limit. Keep every receipt starting today.
+        </span>
+      </li>
+      <li>
+        <span class="checkbox"></span>
+        <span class="owner">Miki</span>
+        <span class="item-text">
+          <strong>Schedule Easter Seals WIPA appointment</strong>
+          Phone: (402) 462-3031. Request a Community Work Incentives Coordinator (CWIC). They will calculate Tom's exact IRWE amounts and produce a formal Benefits Summary and Analysis (BSA) — this is the most valuable document for managing SSA benefits while working.
+        </span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="phase-block">
+  <div class="phase-header green">🟢 &nbsp;Phase 4 — Long-Term Stabilization (Days 15–30)</div>
+  <div class="phase-body">
+    <ul class="checklist">
+      <li>
+        <span class="checkbox"></span>
+        <span class="owner">Tom</span>
+        <span class="item-text">
+          <strong>Continue Nebraska VR engagement</strong>
+          Tom had an initial meeting Feb 4. Continue participation. VR can provide support services, documentation of work limitations, and restorative services. This supports both the SSA claim and the MIWD application.
+        </span>
+      </li>
+      <li>
+        <span class="checkbox"></span>
+        <span class="owner">Tom + Miki</span>
+        <span class="item-text">
+          <strong>Confirm Tom's MCO and psychiatrist are in-network</strong>
+          Log into iServe to see which MCO Tom was enrolled in (Nebraska Total Care, UHC Community Plan, or Molina). Verify current psychiatrist is in-network. If not, get an out-of-network authorization or consider MCO change (allowed within first 90 days).
+        </span>
+      </li>
+      <li>
+        <span class="checkbox"></span>
+        <span class="owner">Miki</span>
+        <span class="item-text">
+          <strong>Watch for Medicaid annual redetermination notice</strong>
+          Tom was approved Feb 2026 — renewal notice will come ~Feb 2027. He must respond within 30 days. Mark calendar. Miki is listed as a contact and should watch for mail from DHHS.
+        </span>
+      </li>
+      <li>
+        <span class="checkbox"></span>
+        <span class="owner">Miki</span>
+        <span class="item-text">
+          <strong>Confirm Nebraska work requirement exemption (May 1, 2026)</strong>
+          Nebraska Medicaid imposes 80-hour/month work requirements for Heritage Health Adult members starting May 1. Individuals with a disabling mental disorder are explicitly exempt. Tom's schizophrenia qualifies. Confirm this exemption is documented with DHHS — even if he's in MIWD by then, this should be on record.
+        </span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- ================================================ -->
+<h2>Key Contacts</h2>
+<!-- ================================================ -->
+
+<div class="contacts-grid">
+  <div class="contact-card">
+    <div class="name">Mr. Childs — CA DDS (Social Security)</div>
+    <div class="phone">(619) 278-4753</div>
+    <div class="note">Case ID: 16321562 | Deadline: March 1, 2026<br>Responds to Tom's pending disability application</div>
+  </div>
+  <div class="contact-card">
+    <div class="name">Nebraska DHHS — Medicaid</div>
+    <div class="phone">1-855-632-7633</div>
+    <div class="note">Medicaid eligibility, MIWD application, SRT disability determination</div>
+  </div>
+  <div class="contact-card">
+    <div class="name">NE Medicaid TPL Unit (Insurance Verification)</div>
+    <div class="phone">Fax: (402) 742-2351</div>
+    <div class="note">Email: DHHS.ANDICENTER@nebraska.gov<br>Submit UHC card by March 20</div>
+  </div>
+  <div class="contact-card">
+    <div class="name">Easter Seals Nebraska — WIPA</div>
+    <div class="phone">(402) 462-3031</div>
+    <div class="note">Benefits counseling, IRWE calculation, SSA-821 assistance</div>
+  </div>
+  <div class="contact-card">
+    <div class="name">Nebraska VR Lincoln</div>
+    <div class="phone">(402) 471-3231</div>
+    <div class="note">Vocational rehabilitation — initial meeting Feb 4; continue engaging</div>
+  </div>
+  <div class="contact-card">
+    <div class="name">Legal Aid of Nebraska</div>
+    <div class="phone">1241 N Street, Suite 200, Lincoln</div>
+    <div class="note">SSI/Medicaid preservation legal assistance</div>
+  </div>
+  <div class="contact-card">
+    <div class="name">MCO Enrollment Broker</div>
+    <div class="phone">1-888-255-2605</div>
+    <div class="note">neheritagehealth.com — confirm/change MCO, find providers</div>
+  </div>
+  <div class="contact-card">
+    <div class="name">COB Helpdesk (Coordination of Benefits)</div>
+    <div class="phone">(402) 471-3153</div>
+    <div class="note">For billing issues between UHC and Medicaid</div>
+  </div>
+  <div class="contact-card">
+    <div class="name">Cobenfy Manufacturer Support</div>
+    <div class="phone">1-877-262-3639</div>
+    <div class="note">BMS patient assistance — prior authorization navigation</div>
+  </div>
+  <div class="contact-card">
+    <div class="name">iServe (Tom's Medicaid Account)</div>
+    <div class="phone mono">iserve.nebraska.gov</div>
+    <div class="note">Username: tomburbach99 | Password: LNERockets99!</div>
+  </div>
+</div>
+
+<!-- ================================================ -->
+<h2>Tom's Medicaid ID</h2>
+<!-- ================================================ -->
+
+<div class="alert blue">
+  <strong>Nebraska Medicaid ID: 02203987001</strong><br>
+  Effective: February 1, 2026 | Permanent card expected ~Feb 25–26, 2026<br>
+  UHC Case #: 13033810 (through Kent Burbach / Haleon, through April 2027)
+</div>
+
+<p style="margin-top:28px; font-size:11px; color:#aaa; text-align:center; font-family:var(--mono);">
+  Prepared February 25, 2026 &nbsp;|&nbsp; Tom Burbach Benefit Coordination File &nbsp;|&nbsp; Confidential — Family Use Only
+</p>
+
+</body>
+</html>
