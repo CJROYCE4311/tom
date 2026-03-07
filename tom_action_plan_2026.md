@@ -87,28 +87,27 @@ Unless the exceptions apply, filing a tax return may not result in a refund, but
 ## 3. Employment & Financials (New: Feb 2026)
 **Job:** Hy-Vee
 **Start Date:** Feb 9, 2026
-**Terms:** $15/hr, 30 hrs/week (~$1,950/month gross).
+**Terms:** $15/hr, 20–24 hrs/week (~$1,300–$1,558/month gross).
 
 ### **Financial Projection**
-*   **Gross Monthly Income:** ~$1,950
-*   **Est. Taxes (~15-18%):** -$300 to -$350
-*   **Est. Net Pay:** ~$1,600 - $1,650
-*   **Monthly Expenses:** -$700 (Rent/Share to Jean?)
-*   **Surplus:** **+$900 to +$950/month**
+*   **Gross Monthly Income:** ~$1,300–$1,558 (20–24 hrs/wk × $15/hr × 4.33 wks)
+*   **Est. Taxes (~15-18%):** -$200 to -$280
+*   **Est. Net Pay:** ~$1,020 - $1,360
+*   **Monthly Expenses:** -$700 (Rent/Share to Jimmy)
+*   **Surplus:** **+$320 to +$660/month** (varies with hours)
 *   **Action:** Tom needs a budget. He should save this surplus to build an emergency fund or pay down any debts.
 
-### **CRITICAL: Social Security Disability Impact**
-**The Issue:**
+### **Social Security Disability Impact — Updated March 7, 2026**
+**Current Status:**
 *   Tom's application is **pending**.
 *   **Substantial Gainful Activity (SGA) Limit 2026:** **$1,690/month**.
-*   **Tom's Projected Income:** **~$1,950/month**.
+*   **Tom's Actual Income:** **~$1,300–$1,558/month (20–24 hrs/wk) — BELOW SGA.**
+*   Miki and Tom called the Nebraska SS office in early March 2026. Forms were re-sent, an extension was granted, and the SS representative confirmed Tom **meets the financial eligibility requirements** at his current income level.
 
-**Consequences:**
-*   **If Pending:** Earning above the SGA limit ($1,690) generally results in a **technical denial** of the disability claim because he is demonstrating the ability to perform "substantial gainful activity."
-*   **If Approved (Trial Work Period):** If he were *already* approved, he would have a 9-month "Trial Work Period" (TWP) where he could earn any amount.
-*   **Risk:** Since he is likely *not* yet approved, this job may disqualify him from receiving backpay or benefits for the months he works this much.
-*   **Strategic Decision:** Does Tom want the job (immediate income, independence) more than the potential disability benefits? If he can maintain this job, he may not need SSDI. If he cannot maintain it (e.g., stops after 2 months due to health), it might be classified as an "Unsuccessful Work Attempt" (UWA) and not jeopardize the claim, but this is complex.
-*   **Action:** Tom must report this work to Social Security immediately. Failure to report can lead to overpayments and penalties.
+**Key Considerations:**
+*   **SGA is not an active threat** at current hours. If hours increase above ~27/week, SGA becomes relevant again — monitor.
+*   **UWA still applies** if the job ends within 6 months (before ~August 9, 2026) due to psychiatric symptoms — document any attendance issues, accommodations, or struggles.
+*   **Report employment** to Social Security as instructed on the re-sent forms. Transparency is required.
 
 ## 4. Medical & Treatment Plan (New: Feb 2026)
 **Goal:** Address hallucinations, weight gain, and sedation while managing costs.

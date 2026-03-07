@@ -9,7 +9,7 @@ Tom qualifies for multiple free or no-cost legal resources in Nebraska. Getting 
 
 ### Legal Aid of Nebraska
 - **Best option for Tom.** Serves all 93 Nebraska counties. Handles Social Security disability cases and Medicaid issues at no cost to qualifying individuals.
-- At ~$1,950/month gross income, Tom would very likely meet their income eligibility threshold.
+- At ~$1,300–$1,558/month gross income, Tom would very likely meet their income eligibility threshold.
 - Can assist with both the SSDI claim and Medicaid (MIWD transfer, eligibility protection).
 - **Website/Intake:** legalaidofnebraska.org/call-for-help
 - **Coverage:** Statewide, including Lincoln

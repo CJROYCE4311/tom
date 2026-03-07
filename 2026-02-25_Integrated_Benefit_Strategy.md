@@ -10,7 +10,9 @@
 ---
 
 ## Executive Summary
-This strategy addresses the urgent management of benefits for Tom (age 26, Lincoln NE, Schizophrenia). The core objective is to hit the immediate deadlines while protecting a multi-year disability claim against the "technical threat" of current employment earnings ($1,950/mo) that exceed the $1,690 SGA limit — and to ensure that if the Hy-Vee job ends (likely), Tom's benefit fallback (SSI + Medicaid) is fully secured and not damaged by the work attempt.
+This strategy addresses the urgent management of benefits for Tom (age 26, Lincoln NE, Schizophrenia). The core objective is to hit the immediate deadlines while protecting a multi-year disability claim and ensuring that if the Hy-Vee job ends (likely), Tom's benefit fallback (SSI + Medicaid) is fully secured and not damaged by the work attempt.
+
+**Updated March 7, 2026:** Tom's actual Hy-Vee schedule is **20–24 hours/week at $15/hr (~$1,300–$1,558/month gross)** — below the 2026 SGA limit of $1,690/month. The Nebraska SS office confirmed on a March 2026 call that Tom meets the financial eligibility requirements. Forms were re-sent and an extension was granted. The SGA threat that originally drove this analysis is resolved at current hours; however all guidance below remains relevant if hours increase or as contingency planning.
 
 **Strategic Pivot:** Tom's work history is an **asset, not a liability.** The cycle of short employment → crisis → treatment → dependence → another failing work attempt is textbook evidence of an inability to sustain Substantial Gainful Activity (SGA). SSA adjudicators and ALJs view repeated failed work attempts as strong clinical proof of disability, not proof of functionality.
 
@@ -23,7 +25,7 @@ This strategy addresses the urgent management of benefits for Tom (age 26, Linco
 ### Current Status
 - Application originally filed 2020 — has been pending approximately 6 years
 - CA DDS (Mr. Childs, Case ID 16321562) has requested additional information — **deadline March 1**
-- Current Hy-Vee income (~$1,950/mo) exceeds 2026 SGA limit of $1,690/mo — this must be actively managed
+- Current Hy-Vee income (~$1,300–$1,558/mo at 20–24 hrs/wk) is **below** the 2026 SGA limit of $1,690/mo — NE SS office confirmed financial eligibility March 2026; extension granted
 
 ### Framing the "Failed Work Attempt" Asset
 - **Prior jobs as UWAs:** Any employment lasting under 6 months, followed by a break due to psychiatric crisis, homelessness, or inability to function, qualifies as an Unsuccessful Work Attempt (UWA). UWAs do not count as SGA and do not defeat a disability claim. The pattern of two or more UWAs separated by crises is a primary clinical indicator of schizophrenia's impact on vocational stability.
@@ -36,11 +38,11 @@ The 6-year delay and Tom's history of homelessness qualify him for a **Critical 
 - **Congressional Inquiry:** Every U.S. Senator/Representative has a dedicated SSA caseworker. A congressional inquiry is the single most effective tool for forcing a stalled claim into active adjudication. Contact Rep. Mike Flood, Sen. Deb Fischer, or Sen. Pete Ricketts (Nebraska) to initiate. Miki can do this on Tom's behalf with his written consent.
 - **Dire Need Flag:** Formally allege "Dire Need" to the SSA field office based on prior homelessness and current psychiatric instability.
 
-### SGA Mitigation Tools (To Use Now, While Job Is Active)
-Three tools reduce Tom's "countable" income below the $1,690 SGA threshold:
+### SGA Mitigation Tools (Contingency — For Use If Hours Increase)
+At 20–24 hrs/week, Tom's income is already below the $1,690 SGA threshold. These tools become active if hours increase above ~27/week or if gross income approaches $1,690/month:
 
 **1. Impairment-Related Work Expenses (IRWE)**
-Deduct out-of-pocket costs for medications and treatment directly related to his disability that allow him to work. At $1,950 gross income, he needs to document only **$261/month** in IRWEs to bring countable income below $1,690.
+Deduct out-of-pocket costs for medications and treatment directly related to his disability that allow him to work. If income were at $1,950/month, he would need only **$261/month** in IRWEs to bring countable income below $1,690. Even at current income, keep all receipts — useful if hours ever increase.
 - Eligible: Cobenfy out-of-pocket (if any after insurance), Lybalvi copays, therapy session copays, transportation to medical appointments
 - Track and keep receipts for everything
 
@@ -54,12 +56,12 @@ If Hy-Vee is giving Tom extra support (slower pace, more supervision, task accom
 
 ## 2. Nebraska Medicaid: Critical Income Problem & MIWD Pathway
 
-### The Problem: Tom Is Likely in the Wrong Category
-Tom was approved under **Heritage Health Adult** (ACA Medicaid expansion), effective Feb 1, 2026. The income limit for that category is **~$1,733/month (138% FPL)**. Tom's Hy-Vee income is ~$1,950/month — he is **over this limit by ~$217/month**.
+### Income vs. Heritage Health Adult Limit — Updated Status
+Tom was approved under **Heritage Health Adult** (ACA Medicaid expansion), effective Feb 1, 2026. The income limit for that category is **~$1,733/month (138% FPL)**.
 
-He was almost certainly approved before his employment began or before income was verified. His annual redetermination will flag this. If it's caught before a transfer to the correct category, his Medicaid will be terminated.
+**Updated March 7, 2026:** At 20–24 hrs/week (~$1,300–$1,558/month), Tom's income is **within** the Heritage Health Adult limit. The income concern that drove the original MIWD recommendation is resolved at current hours.
 
-**Do not voluntarily report the income and trigger a termination before the MIWD transfer is in place.**
+**However, MIWD remains a valuable goal** because: (a) hours could increase, (b) MIWD is designed for working disabled adults and provides more durable coverage independent of standard income limits, and (c) it future-proofs his coverage against any schedule changes. Pursue the MIWD transfer proactively but without urgency.
 
 ### The Solution: MIWD (Medicaid Insurance for Workers with Disabilities)
 Nebraska's MIWD program is specifically designed for working disabled adults. Tom fits it.
@@ -68,8 +70,8 @@ Nebraska's MIWD program is specifically designed for working disabled adults. To
 |---|---|---|---|
 | Age | 26 | 16–64 | Yes |
 | Disability | Schizophrenia | SSA determination OR Nebraska SRT | Pending (see below) |
-| Earned income | ~$1,950/mo | Must have earned income | Yes |
-| Income level | ~149% FPL | 101–250% FPL | Yes |
+| Earned income | ~$1,300–$1,558/mo | Must have earned income | Yes |
+| Income level | ~85–102% FPL | 101–250% FPL | Marginal at low end |
 | Premium | — | $0 below 200% FPL (~$3,130/mo) | Would owe $0 |
 | Asset limit | Likely low | Under $4,000 individual | Likely yes |
 
@@ -214,8 +216,8 @@ If Tom loses the Hy-Vee job within 6 months of starting (before August 9, 2026):
 
 | Metric | Current | Threshold | Risk |
 |---|---|---|---|
-| Hy-Vee gross income | ~$1,950/mo | $1,690 SGA limit | Over — manage with IRWEs |
-| Heritage Health Adult income limit | — | $1,733/mo (138% FPL) | Tom is over — need MIWD |
+| Hy-Vee gross income | ~$1,300–$1,558/mo | $1,690 SGA limit | **Below SGA — NE SS confirmed** |
+| Heritage Health Adult income limit | — | $1,733/mo (138% FPL) | **Tom is within limit at current hours** |
 | MIWD income ceiling (no premium) | — | $3,130/mo (200% FPL) | Tom is well under |
 | MIWD income ceiling (with premium) | — | $3,913/mo (250% FPL) | Comfortable margin |
 | UWA clock (job started Feb 9, 2026) | Day 16 | 6 months = Aug 9, 2026 | In window — document |

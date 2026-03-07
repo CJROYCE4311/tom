@@ -19,14 +19,14 @@ Notes often originate from speech-to-text. Always apply these corrections:
 | **March 20, 2026** | NE Medicaid Insurance Verification | Fax (402) 742-2351 (Haleon/UHC card needed) |
 
 ## 👤 Key Person Profiles
-*   **Tom (Thomas Andrew Burbach):** 26yo, Schizophrenia. Living in Lincoln, NE with brother Jimmy. Currently working at Hy-Vee ($15/hr, 30hrs/wk). History of treatment non-compliance and externalizing blame.
+*   **Tom (Thomas Andrew Burbach):** 26yo, Schizophrenia. Living in Lincoln, NE with brother Jimmy. Currently working at Hy-Vee ($15/hr, 20–24 hrs/wk, ~$1,300–$1,558/mo). History of treatment non-compliance and externalizing blame.
 *   **Miki (Michaeleane Royce):** Mother & primary advocate. Boundary-setting; supportive but no longer a full-time case manager or open-ended financier.
 *   **Chris:** Miki's husband. Strategic/firm stance. Recovery is viewed as Tom's "full-time job."
 *   **Jean:** Maternal grandmother. Currently funding Tom's life in NE; health is failing. Her enabling (undermining boundaries) is a significant concern.
 *   **Kent Burbach:** Tom's father. Works at Haleon. Tom is a disabled dependent on his UHC plan (Active through April 2027).
 
 ## 📊 Benefits & Employment Logic
-*   **SGA (Substantial Gainful Activity):** Tom's Hy-Vee income (~$1,950/mo) exceeds the 2026 limit ($1,690). This is a technical threat to his pending SS claim. 
+*   **SGA (Substantial Gainful Activity):** Tom's Hy-Vee income (~$1,300–$1,558/mo at 20–24 hrs/wk) is **below** the 2026 limit ($1,690). NE SS office confirmed March 2026 he meets financial eligibility; extension granted. Monitor if hours increase above ~27/week.
 *   **UWA (Unsuccessful Work Attempt):** If the job is unsustainable, it may be framed as a UWA to preserve the claim.
 *   **NE Medicaid:** Approved (ID: 02203987001).
 *   **SS Status:** Pending since 2020. Critical deadline March 1.

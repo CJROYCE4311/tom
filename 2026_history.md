@@ -25,10 +25,10 @@
 *   **Employment Success:** Tom has been hired at Hy-Vee!
     *   **Start Date:** Monday, February 9, 2026.
     *   **Pay:** $15.00/hour.
-    *   **Hours:** 30 hours/week.
+    *   **Hours:** 20–24 hours/week (part-time; schedule varies).
     *   **Schedule:** Days off are Sundays and Wednesdays.
 *   **Financial Projection:**
-    *   **Estimated Gross Income:** ~$1,950/month ($15 * 30 hrs * 4.33 wks).
+    *   **Estimated Gross Income:** ~$1,300–$1,558/month ($15 × 20–24 hrs × 4.33 wks). Below the 2026 SGA threshold of $1,690/month.
     *   **Living Expenses:** ~$700/month.
     *   **Outlook:** If he maintains this schedule, he will be self-sufficient for his current monthly expenses.
 *   **Social Security Implication:** Miki notes the need to track how this income affects his disability application (SGA limits).

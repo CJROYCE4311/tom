@@ -19,11 +19,11 @@ In early 2025, Tom was admitted to Axis treatment center in Palm Springs after f
 
 ## Current Situation (Early 2026)
 
-Tom is now living in Lincoln, Nebraska with Jimmy. He began working at Hy-Vee grocery on February 9, 2026, earning $15/hour at 30 hours/week — approximately $1,950/month gross. This is a meaningful positive step.
+Tom is now living in Lincoln, Nebraska with Jimmy. He began working at Hy-Vee grocery on February 9, 2026, earning $15/hour at 20–24 hours/week — approximately $1,300–$1,558/month gross. This is a meaningful positive step.
 
 He is engaged with a psychiatrist and his medication regimen is being actively adjusted: reducing olanzapine to address sedation, adding Cobenfy (xanomeline/trospium) to target persistent hallucinations, and pursuing Lybalvi for weight management. Nebraska Medicaid was approved effective February 1, 2026.
 
-Two critical deadlines are active: a March 1 deadline to respond to California DDS regarding his long-pending Social Security disability application, and a March 20 deadline to provide Nebraska Medicaid with insurance verification. Tom's Hy-Vee income exceeds the 2026 SGA threshold, which creates a complication for his disability claim that must be actively managed.
+Two critical deadlines are active: a March 1 deadline to respond to California DDS regarding his long-pending Social Security disability application, and a March 20 deadline to provide Nebraska Medicaid with insurance verification. Tom's Hy-Vee income (~$1,300–$1,558/month at 20–24 hrs/week) is below the 2026 SGA threshold of $1,690/month; the Nebraska SS office confirmed in March 2026 that he meets the financial eligibility requirements. The SS office re-sent the required forms and granted a filing extension.
 
 ## Family Dynamics
 

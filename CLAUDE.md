@@ -36,7 +36,7 @@ Notes and transcripts in this directory are often created via speech-to-text. Tr
 - **SS Re-entry number:** 31977977
 - **Diagnosis:** Schizophrenia (initially labeled "drug-induced schizophrenia" in 2020)
 - **Current location:** Lincoln, NE — living with brother Jimmy (James Burbach)
-- **Current job:** Hy-Vee grocery, started Feb 9, 2026 — $15/hr, 30 hrs/week (~$1,950/month gross)
+- **Current job:** Hy-Vee grocery, started Feb 9, 2026 — $15/hr, 20–24 hrs/week (~$1,300–$1,558/month gross)
 - **Pattern:** Cycles between stability and crisis; history of stopping meds, quitting jobs, fleeing structure, externalizing blame
 - **Strengths:** Intelligent, capable of insight (see his writings), can function well when medicated and supported
 - **Trigger warning:** Jean fears Tom will attempt suicide if pushed; Chris disputes this enables avoidance of accountability
@@ -83,10 +83,10 @@ Notes and transcripts in this directory are often created via speech-to-text. Tr
 - **Insurance:** UHC disabled dependent under Kent/Haleon. Active through April 2027. Case #: 13033810.
 
 ### Critical SS Complication — SGA
-Tom's Hy-Vee income (~$1,950/month) **exceeds the 2026 Substantial Gainful Activity (SGA) limit of $1,690/month.** This may trigger a technical denial of his pending disability claim. Tom **must report this employment to Social Security immediately.** Strategic question: if he cannot sustain the job, it may qualify as an "Unsuccessful Work Attempt" (UWA) and not harm the claim — but this is complex and must be monitored.
+Tom's Hy-Vee income (~$1,300–$1,558/month at 20–24 hrs/week) is **below the 2026 SGA limit of $1,690/month.** The Nebraska SS office confirmed on a March 2026 call that Tom meets the financial eligibility requirements at his current income level; forms were re-sent and an extension was granted. SGA is not an active threat at current hours — but must be monitored if hours increase above ~27/week.
 
 ### Employment
-- **Hy-Vee:** $15/hr, 30 hrs/week. Days off: Sunday and Wednesday.
+- **Hy-Vee:** $15/hr, 20–24 hrs/week. Days off: Sunday and Wednesday.
 - Nebraska Vocational Rehabilitation (VR): Initial meeting was Feb 4, 2026. Continue engaging.
 
 ### Medical / Medications

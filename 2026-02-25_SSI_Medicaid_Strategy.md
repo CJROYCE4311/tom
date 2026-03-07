@@ -7,7 +7,7 @@
 
 ## Executive Summary
 
-This report addresses two urgent, interconnected issues: (1) maintaining Nebraska Medicaid eligibility while covered under a parent's United HealthCare (UHC) plan, and (2) protecting a pending Social Security Disability claim while earning above the 2026 Substantial Gainful Activity (SGA) limit. Current monthly gross earnings of ~$1,950 exceed the 2026 SGA threshold of $1,690 for non-blind individuals. The March 1, 2026 CA DDS response deadline is the single most time-sensitive item. Failure to respond could result in the claim being closed and the loss of years of retroactive benefits dating to the 2020 filing.[^1][^2][^3]
+This report addresses two urgent, interconnected issues: (1) maintaining Nebraska Medicaid eligibility while covered under a parent's United HealthCare (UHC) plan, and (2) protecting a pending Social Security Disability claim in the context of current part-time employment. **Updated March 7, 2026:** Tom's actual Hy-Vee schedule is **20–24 hours/week at $15/hr (~$1,300–$1,558/month gross)**, which is **below** the 2026 SGA threshold of $1,690/month. The Nebraska SS office confirmed on a March 2026 call that Tom meets the financial eligibility requirements; forms were re-sent and a deadline extension was granted. The SGA concern that originally drove portions of this analysis is resolved at current hours. The analysis and tools below (IRWE, UWA, subsidy) remain valid contingency planning if hours increase. The March 1, 2026 CA DDS response deadline is the single most time-sensitive item (extension now granted). Failure to respond could result in the claim being closed and the loss of years of retroactive benefits dating to the 2020 filing.[^1][^2][^3]
 
 **Critical context:** This claim was filed in 2020 and SSA/CA DDS has delayed a decision for approximately two years at the initial level. In the interim, Tom's trajectory — short employment (~2 months), homelessness (~2 months), inpatient/outpatient treatment, unemployment while living with his brother, and now a new job he is struggling to maintain — is not a liability. **This pattern is textbook evidence of inability to sustain substantial gainful activity**, and if framed correctly, it strengthens the disability claim significantly.[^4][^5]
 
@@ -53,7 +53,7 @@ Nebraska operates the **Medicaid Insurance for Workers with Disabilities (MIWD)*
 - MIWD benefits are **identical** to traditional Medicaid benefits.[^13]
 - A premium may apply if income exceeds 200% FPL, but premiums are capped at lower rates under the 2021 program changes.[^15]
 
-At $1,950/month gross (~$23,400/year), this individual would fall well within 250% FPL for a single person (approximately $38,295 in 2026), making MIWD a viable fallback if standard Medicaid eligibility is ever questioned due to income.
+At $1,300–$1,558/month gross (~$15,600–$18,700/year), this individual falls well within 250% FPL for a single person (approximately $38,295 in 2026), making MIWD a viable pathway if standard Medicaid eligibility is ever questioned due to income increases.
 
 ### Nebraska Medicaid Work Requirements — May 2026
 
@@ -65,7 +65,7 @@ Nebraska is implementing Medicaid work requirements for the expansion population
 
 ### Current Earnings vs. SGA Threshold
 
-The 2026 SGA limit for non-blind individuals is **$1,690/month**. At $15/hr and 30 hrs/wk, gross monthly earnings are approximately **$1,950**, which is $260 over SGA. If the SSA determines the individual is performing SGA at the time of adjudication, the claim will be denied at Step 1 of the five-step sequential evaluation — regardless of the severity of the disability.[^20][^21][^1]
+The 2026 SGA limit for non-blind individuals is **$1,690/month**. At $15/hr and **20–24 hrs/wk**, gross monthly earnings are approximately **$1,300–$1,558**, which is **below** the SGA threshold. The Nebraska SS office confirmed March 2026 that Tom meets the financial eligibility requirements at this income level. *(Note: original analysis assumed 30 hrs/wk and $1,950/month; actual schedule is part-time. If hours increase above ~27/week, SGA risk returns.)*[^20][^21][^1]
 
 **Reporting obligation:** Any changes in work activity — starting a job, changes in hours/duties/pay, or stopping work — must be reported to SSA while a claim is pending. The SSA will likely send a **Work Activity Report (Form SSA-821-BK)** when it learns of the employment. This form must be completed accurately and promptly.[^22][^23][^20]
 
@@ -80,7 +80,7 @@ Tom's employment timeline since the 2020 filing is actually a powerful asset whe
 | ~2 months | Homeless | Disability-related gap — supports severity[^4][^24] |
 | Treatment period | Inpatient/outpatient treatment | Medical evidence of severity |
 | Unemployment | Living with brother, not working | Inability to sustain employment |
-| Current (Feb 2026) | Just started new job, ~$1,950/mo | Struggling — potential second UWA |
+| Current (Feb–Mar 2026) | Part-time Hy-Vee, ~$1,300–$1,558/mo (20–24 hrs/wk) | Below SGA — NE SS confirmed eligibility |
 
 This cycle of work → failure → homelessness → treatment → dependence → another work attempt is **exactly what SSA expects to see in severe Schizophrenia**. Employment gaps caused by disability are not weaknesses — they are evidence of instability and inability to sustain work. Failed work attempts that end because of the impairment actually improve credibility with SSA and ALJs.[^25][^5][^6][^4]
 
@@ -104,11 +104,11 @@ IRWE deductions are the most immediate tool to reduce countable earnings below S
 
 | Item | Monthly Cost (Est.) |
 |------|-------------------|
-| Gross monthly earnings | $1,950 |
+| Gross monthly earnings | ~$1,300–$1,558 (20–24 hrs/wk) |
 | 2026 SGA threshold | $1,690 |
-| Amount to reduce below SGA | $260+ |
+| Gap to SGA | **Already below SGA** |
 
-The individual needs at least **$261/month** in approved IRWE to bring countable earnings below SGA. Medication costs for Schizophrenia are often substantial:
+At current hours, Tom is already below SGA and IRWEs are not needed to qualify. *(Original analysis assumed $1,950/month at 30 hrs/wk. IRWE math retained below for reference if hours increase.)* If gross income were at $1,950, he would need **$261/month** in approved IRWE to bring countable earnings below SGA. Medication costs for Schizophrenia are often substantial:
 
 - **Cobenfy** list price: $1,887 for a 30-day supply without insurance. Even with insurance, copays can be significant.[^28]
 - **Lybalvi** copay: May be $0 for first 3 fills with commercial insurance copay card, then as low as $20/fill with the savings program — but the savings card is **not valid for Medicaid recipients**. The out-of-pocket amount actually paid after all insurance is the deductible IRWE amount.[^29]
