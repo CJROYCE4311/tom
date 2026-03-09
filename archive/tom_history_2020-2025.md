@@ -52,58 +52,44 @@ When you and Miki confront Tom about his inactivity and expectations, he rejects
 2020–2023 (rotating family homes)
 Over several years after the accident, Tom cycles between Miki and you, Kent, Jean, and Jimmy. Each host reports the same themes: Tom takes meds inconsistently at best, barely participates in therapy, blames others for his problems, and quits jobs or gets fired.
 
-2022 – Entry to We Level Up and The Edge
+2020–2023 (employment attempts during cycling period)
+During this period Tom holds several jobs, none of them sustained. Known positions include: a retail or similar job [employer name unclear from notes — possibly "Kohl's" or similar] which he quits; a liquor store job in Nebraska from which he is fired; and the Amazon warehouse job (late 2021, fired within approximately one week). Each job ends without accountability or follow-through.
 
-2022-11 (Miki and Jean decide on treatment)
-Miki and Jean sit at Miki’s table in crisis, decide they need a residential program, and call We Level Up in Florida. Miki calls the insurer to verify that it is a legitimate facility, not dangerous.
+2023 – Entry to We Level Up and The Edge/Forge
 
-2022-11 (Tom goes to We Level Up)
-Tom flies to We Level Up in Florida for psychiatric and substance related treatment, paid for and arranged by Miki.
+2023-11 (Miki and Jean decide on treatment)
+While Tom is living with his brother Jimmy in Lincoln, Nebraska, Miki and Jean reach a crisis decision point and call We Level Up in Florida. Miki calls the insurer to verify that it is a legitimate facility, not dangerous.
 
-2022-12 (transfer to The Edge)
-Tom is transferred to The Edge in California for longer term treatment. You later come to know Kyle there as a key ally who truly cares about Tom.
+2023-11 (Tom goes to We Level Up)
+Tom flies to We Level Up in Florida for psychiatric and substance-related treatment, paid for and arranged by Miki. This is the first formal residential program he has entered.
 
-2022-12 to mid 2023 (The Edge engagement struggles)
-At The Edge, Tom takes medication but complains about groups, resists participation, and fights efforts to get him into a job or more structured responsibilities.
+2023-12 (transfer to The Edge/Forge, Anaheim, California)
+Tom is transferred to The Edge/Forge in Anaheim, California for longer-term residential treatment. Kyle is a key staff member who genuinely cares about Tom and becomes a lasting ally for the family. Tom takes medication but complains about groups, resists participation, and pushes back on structured responsibilities.
 
-Mid 2023 (grocery store job and room)
-Around July 2023, Tom finally accepts a grocery store job and, with help from The Edge, obtains a room for rent near the facility.
+2023-12 to 2024-11 (The Edge/Forge: gradual engagement and employment at Vons)
+Over nearly a year at The Forge, Tom gradually accepts more structure. During this period he holds a part-time position at Vons grocery store, which is his primary employment during the residential stay.
 
-Late 2023 – Medication Stoppage and Homelessness
+2024-11 (leaves The Forge, rents room from Roberto)
+Around November 2024, Tom leaves The Forge and rents a room from a man named Roberto in the Anaheim/California area. He continues working at Vons grocery store. This is his first attempt at independent living since the Colorado apartment in 2021.
 
-Late 2023 (Tom stops meds and quits job)
-Shortly after Christmas, Tom decides he no longer needs medication, stops taking it, and quits his grocery store job abruptly.
+2025-01 – Medication Stoppage, Job Loss, and Homelessness (Single Episode)
 
-Late 2023 (roommate conflict and property damage)
-Tom becomes aggressive with roommates, and they report property damage to Miki. The roommates are generally kind and only want Tom to get help.
+2025-01 (Tom stops meds and quits Vons grocery)
+In January 2025, Tom stops taking his medications and quits his job at Vons grocery store. He vacates his room at Roberto’s. He becomes homeless — his first and only documented episode of homelessness.
 
-Late 2023–early 2024 (refusal to return to The Edge)
-Although The Edge is willing to take Tom back, he refuses and runs instead, beginning another period of instability.
+2025-02-02 (Tom found — reconnects with family)
+On February 2, 2025, after approximately three weeks of being missing and homeless in California, a woman allows Tom to use her phone. He calls Miki, which reconnects him with family.
 
-Santa Ana Program and Discharge
+Early 2025 – Crisis Placements and Axis Admission
 
-2023-12 to Fall 2024 (Santa Ana treatment)
-Tom enters a program in Santa Ana, California, which includes inpatient care, partial hospitalization, and intensive outpatient treatment.
+2025-02 (Miki contacts Kyle at The Forge/Edge)
+Miki calls The Edge. Kyle, now a former resident turned staff member, immediately starts working with her to find crisis placements for Tom.
 
-Fall 2024 (discharge)
-Tom is discharged in Fall 2024, renting a room and working part time at a grocery store.
+2025-02 (multiple failed crisis placements in California)
+Tom is placed at several crisis centers in California, runs away from at least four of them, and disrupts admissions until he finally agrees to stay at Axis in Palm Springs.
 
-Late 2024 (collapse of housing and employment)
-Tom quits his job and leaves his room late in 2024. He becomes homeless for more than three weeks and stops taking medication in Fall 2024.
-
-Early 2025 – Homelessness and Crisis, Axis Entry
-
-Early 2025 (three weeks missing)
-Tom is missing for about three weeks while homeless. A woman in California lets him use her phone, and he calls Miki, which reconnects him with family.
-
-Early 2025 (Miki contacts Kyle at The Forge/Edge)
-Miki calls The Edge, and Kyle, a former resident turned staff member, immediately starts working with her to find crisis placements for Tom.
-
-Early 2025 (multiple failed crisis placements)
-Tom is placed at several crisis centers, runs away from at least four, and disrupts admissions until he finally stays at Axis in Palm Springs.
-
-Early 2025 (Axis admission)
-Tom is admitted to Axis for crisis stabilization and residential treatment. Robert serves as care coordinator for his initial crisis phase.
+2025-02 (Axis admission)
+Tom is admitted to Axis Behavioral Health in Palm Springs, California for crisis stabilization and residential treatment. Robert serves as care coordinator for his initial crisis phase.
 
 SSI, Medicaid, and ID History
 
@@ -293,14 +279,22 @@ Miki notes that she no longer cries during fights and feels emotionally dead ins
 Ongoing (Jami therapy sessions)
 You and Miki continue to meet with Jami at 5 p.m. on Mondays. Sessions focus on Tom’s case, boundary setting, Miki’s grief and burnout, and the strain on your marriage.
 
-Recent Status – Return to The Forge/Edge
+Recent Status – Return to The Forge/Edge and Transition to Nebraska
 
-Latest update (Tom back at The Forge/Edge)
-Tom is now back at The Forge/Edge. You prepare a summary for his new case worker describing everything that has happened since he left The Edge, including Santa Ana, homelessness, Axis, Roy’s discussions, CVRM, insurance efforts, and Miki’s new boundaries.
+2025-fall (Tom back at The Forge/Edge, Anaheim)
+After cycling through multiple California treatment facilities following his January 2025 homelessness episode — including Axis in Palm Springs (spring/summer 2025) — Tom returns to The Forge/Edge in Anaheim in fall 2025. A new case worker is assigned. Miki prepares a full summary for the new case worker covering everything since Tom first left The Forge in November 2024: the room with Roberto, Vons grocery, the homelessness episode, the failed crisis placements, Axis, the COBRA and insurance battle, Roy’s discussions, CVRM, and Miki’s updated boundaries.
 
 Miki’s current stance
 Miki positions herself as Tom’s mother, not caregiver, conservator, or financial safety net. She will offer emotional support and occasional limited financial help but only if Tom complies with medication and treatment, secures SSI and other benefits, manages his own daily needs, and presents a realistic plan for any future move to Arizona.
 
-2025-12 update. 
+2025-10 (Jean flies Tom to her home)
+In October 2025, Jean arranges for Tom to fly to her home. Tom leaves The Forge and moves in with Jean.
 
-In early October Tom and Jean decided for tomorrow to move in with Jean in Montana and has since moved back to Lincoln NE to live with his brother, James. He is currently looking for employment.
+2025-10 to 2025-12 (Tom leaves Jean, moves to Nebraska)
+The arrangement with Jean does not hold. Tom moves to Lincoln, Nebraska to live with his brother Jimmy (James Burbach). He begins looking for employment.
+
+2026-01 (Nebraska — employment search)
+Tom is living with Jimmy in Lincoln, NE. He has a lead on a liquor store job (sourced by his father Kent) and plans to apply. Miki’s engagement and encouragement appears to keep him motivated. His SSA address is updated to Nebraska.
+
+2026-02-09 (hired at Hy-Vee grocery, Lincoln NE)
+Tom is hired at Hy-Vee grocery in Lincoln, NE. Start date February 9, 2026. $15/hour, 20–24 hours/week. This is his current employment as of the most recent updates.

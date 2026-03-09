@@ -2,171 +2,144 @@
 
 This directory is used by **Miki** (Michaeleane Royce) and **Chris** (her husband) to track, plan, and coordinate support for Tom (Miki's adult son) as he navigates schizophrenia, benefits applications, and independent living.
 
----
-
-## Speech-to-Text Notice
-
-Notes and transcripts in this directory are often created via speech-to-text. Transcription errors are common. Key corrections:
-
-- **"mickey", "vicky", "becky", "mikey"** and similar → always means **Miki** (Michaeleane Royce)
-- **"libalvi", "light valve", "alvy"** → **Lybalvi** (medication: olanzapine + samidorphan)
-- **"covenfee", "co-benfee", "co-benphy", "cobenphy"** → **Cobenfy** (medication: xanomeline/trospium)
-- **"negatine"** → nicotine
-- **"gene site", "genesight"** → **GeneSight** (pharmacogenomic test)
-- **"libalvi"** → **Lybalvi**
+**Last updated:** March 9, 2026. Treatment dates corrected across all files.
 
 ---
 
-## The 50 Meter Target
+## Context Window Strategy
 
-**"The 50 meter target"** = the immediate, non-negotiable deadlines from Social Security and Medicaid that must be hit or Tom loses benefits:
+This file is the entry point. To keep context small, read only what you need:
 
-| Deadline | Task | Contact |
+| If the task involves... | Read this file |
+|---|---|
+| Tom's full history and current status | `2026-03-09_tom_history.md` |
+| Action items and deadlines | `tom_action_plan_2026.md` |
+| Insurance card details | `2026-02-25_insurance_card_info.md` |
+| Chris's stance and boundaries | `2026-01-18_note_from_chris.md` |
+| Psychiatrist visit details (Feb 2026) | `2026-02-03_tom_psychiatrist.md` |
+| Summary for a new therapist or provider | `2026-02-26_therapist_summary.md` |
+| Legal resources in Nebraska | `2026-02-25_legal_resources_nebraska.md` |
+| Completed/archived documents | `archive/` folder |
+
+Do NOT load all files at once. Use the table above to select the minimum set needed.
+
+---
+
+## Speech-to-Text Corrections
+
+| Misheard | Correct | Notes |
 |---|---|---|
-| **March 1, 2026** | Respond to CA DDS re: SS disability application | Mr. Childs, (619) 278-4753, Case ID: 16321562 |
-| **March 20, 2026** | Provide NE Medicaid with insurance verification (Haleon/UHC card, front & back) | Fax (402) 742-2351 or DHHS.ANDICENTER@nebraska.gov |
+| mickey, vicky, becky, mikey | **Miki** | Michaeleane Royce |
+| libalvi, light valve, alvy | **Lybalvi** | Medication — deprescribed as of early 2026 |
+| covenfee, co-benfee, co-benphy, cobenphy | **Cobenfy** | Medication (xanomeline/trospium) |
+| negatine | **nicotine** | |
+| gene site, genesight | **GeneSight** | Pharmacogenomic test |
+| vaughn's, von's | **Vons** | Grocery store chain (California) |
+
+---
+
+## Active Deadlines
+
+| Deadline | Task | Status |
+|---|---|---|
+| ~~March 1, 2026~~ | Respond to CA DDS re: SS disability | **DONE.** SSA-3380 completed with addendum and personal statement. Extension granted by NE SS office. |
+| **March 20, 2026** | Provide NE Medicaid with insurance verification | Email sent 2/25. Tom to confirm receipt. Fax (402) 742-2351 or DHHS.ANDICENTER@nebraska.gov |
 
 ---
 
 ## Key People
 
-### Tom — Thomas Andrew Burbach
-- **DOB:** April 28, 1999 (age 26)
-- **SSN:** 508-39-7461
-- **SS Re-entry number:** 31977977
-- **Diagnosis:** Schizophrenia (initially labeled "drug-induced schizophrenia" in 2020)
-- **Current location:** Lincoln, NE — living with brother Jimmy (James Burbach)
-- **Current job:** Hy-Vee grocery, started Feb 9, 2026 — $15/hr, 20–24 hrs/week (~$1,300–$1,558/month gross)
-- **Pattern:** Cycles between stability and crisis; history of stopping meds, quitting jobs, fleeing structure, externalizing blame
-- **Strengths:** Intelligent, capable of insight (see his writings), can function well when medicated and supported
-- **Trigger warning:** Jean fears Tom will attempt suicide if pushed; Chris disputes this enables avoidance of accountability
+**Tom — Thomas Andrew Burbach**
+DOB: April 28, 1999 (age 26). SSN: 508-39-7461. SS Re-entry number: 31977977.
+Diagnosis: Schizophrenia (onset Feb 2020). Location: Lincoln, NE with brother Jimmy.
+Job: Hy-Vee grocery, started Feb 9, 2026. $15/hr, 20–24 hrs/week (~$1,300–$1,558/month gross).
+Pattern: Cycles between stability and crisis; stops meds, quits jobs, flees structure, externalizes blame.
+Strengths: Intelligent, capable of insight when medicated and supported.
 
-### Miki — Michaeleane Royce (formerly Michaeleane Burbach)
-- Tom's mother. Primary advocate and historical financial support.
-- **Address:** 17200 W Mountainair St, Surprise, AZ 85388
-- **Previous surname:** Burbach (used on some older documents and SS filings — same person)
-- **Current stance:** Supportive but boundary-setting. No longer acting as case manager, conservator, or open-ended financial safety net.
-- **Named as contact** on SS and Medicaid documents for Tom's case.
-- Works with therapist Jami Goldman (weekly, Mondays 5pm) — sessions focus heavily on Tom's situation.
+**Miki — Michaeleane Royce** (formerly Burbach)
+Tom's mother. Primary advocate. Address: 17200 W Mountainair St, Surprise, AZ 85388.
+Current stance: Supportive but boundary-setting. Mother, not case manager or open-ended financial safety net.
+Therapist: Jami Goldman (weekly, Mondays 5pm).
 
-### Chris
-- Miki's husband. Retired.
-- Takes a firmer, more strategic stance than Miki or Jean.
-- Notes written as "I" or "me" from Chris's perspective (see `2026-01-18_note_from_chris.md`).
-- Core position: Tom must treat his recovery as a full-time job; Miki and Chris will not pick up the slack when Jean can no longer support him.
+**Chris** — Miki's husband. Retired. Firm, strategic. Tom's recovery must be treated as a full-time job.
 
-### Jean
-- Tom's maternal grandmother. Miki's mother.
-- Currently paying Tom's living expenses in Nebraska.
-- In poor health (congestive heart failure, back problems). **Not a sustainable support source.**
-- Enabling pattern: undermines boundaries, fears pushing Tom will cause suicide, brought Tom home from treatment facility early.
+**Jean** — Tom's maternal grandmother. Currently paying Tom's NE expenses. Poor health (CHF, back problems). Enabling pattern; fears pushing Tom will cause suicide.
 
-### Jimmy / James Burbach
-- Tom's older brother. Tom lives with him in Lincoln, NE.
-- History of legal trouble (DUIs, arrests). Not a stabilizing influence long-term.
+**Jimmy / James Burbach** — Tom's older brother. Tom lives with him in Lincoln, NE.
 
-### Kent Burbach
-- Tom's father. Employed at **Haleon**.
-- Tom is covered as a disabled dependent under Kent's **United HealthCare** plan through April 2027.
-- Haleon HR: key contact for insurance verification letters.
+**Kent Burbach** — Tom's father. Employed at Haleon. Tom is a disabled dependent under Kent's UHC plan through April 2027.
 
 ---
 
-## Tom's Current Situation (as of Feb 2026)
+## Benefits Status (as of March 2026)
 
-### Benefits Status
-- **Nebraska Medicaid:** APPROVED. Effective Feb 1, 2026. Medicaid ID: **02203987001**. Permanent card expected ~Feb 25-26.
-  - **Portal:** [iserve.nebraska.gov](https://iserve.nebraska.gov)
-  - **Username:** tomburbach99
-  - **Password:** LNERockets99!
-- **SS Disability (SSI/SSDI):** Pending — CA DDS handling. Application originally filed 2020, repeatedly incomplete. **Critical: deadline March 1 to respond to CA DDS.**
-- **Insurance:** UHC disabled dependent under Kent/Haleon. Active through April 2027. Case #: 13033810.
+**Nebraska Medicaid:** Approved Feb 1, 2026. ID: 02203987001.
+Portal: iserve.nebraska.gov | Username: tomburbach99 | Password: LNERockets99!
 
-### Critical SS Complication — SGA
-Tom's Hy-Vee income (~$1,300–$1,558/month at 20–24 hrs/week) is **below the 2026 SGA limit of $1,690/month.** The Nebraska SS office confirmed on a March 2026 call that Tom meets the financial eligibility requirements at his current income level; forms were re-sent and an extension was granted. SGA is not an active threat at current hours — but must be monitored if hours increase above ~27/week.
+**SS Disability (SSI/SSDI):** Pending since 2020. CA DDS Case ID: 16321562. Contact: Mr. Childs, (619) 278-4753. SSA-3380 submitted March 2026. Extension granted.
 
-### Employment
-- **Hy-Vee:** $15/hr, 20–24 hrs/week. Days off: Sunday and Wednesday.
-- Nebraska Vocational Rehabilitation (VR): Initial meeting was Feb 4, 2026. Continue engaging.
+**SGA:** Tom's income (~$1,300–$1,558/month) is below the 2026 SGA limit of $1,690/month. Confirmed by NE SS office March 2026. Monitor if hours exceed ~27/week.
 
-### Medical / Medications
-- **Current regimen (as of Feb 3, 2026 psychiatrist visit):**
-  - Olanzapine (Zyprexa): reducing from 20mg → 15mg (to reduce sedation/tiredness)
-  - Cobenfy (xanomeline/trospium): samples provided, targeting hallucinations/voices. Works in 2-3 days.
-  - Lybalvi (olanzapine + samidorphan): pending Prior Authorization; goal is weight management.
-  - **Warning: Do NOT take opioids with Lybalvi.**
-- **GeneSight** pharmacogenomic testing recommended — check insurance coverage first; may be $0 with sliding scale.
-- **Key concern:** Voices/hallucinations, weight gain, morning sedation.
-- **Next appointment:** ~3 weeks from Feb 3 (late Feb / early March 2026).
-- **Action:** Tom needs to fill out sliding fee scale paperwork at the clinic.
-
-### Financial Policy ("Skin in the Game")
-Tom must contribute to upgrade/new medical costs using Hy-Vee income. He must complete financial aid paperwork first — if he reduces the cost to $0, he pays $0. If he neglects paperwork and the bill is $330, he bears a significant share.
+**Insurance:** UHC disabled dependent under Kent/Haleon. Active through April 2027. Case #: 13033810.
 
 ---
 
-## Approach & Philosophy
+## Medical (as of March 2026)
 
-### Miki's Role
-- **Mother, not case manager or conservator.**
-- Provide emotional support and strategic guidance.
-- Will help navigate paperwork and deadlines when Tom cannot manage alone.
-- Will NOT be an open-ended financial backup or take on primary responsibility for his daily life.
-- Boundary: continued support is contingent on medication compliance, engagement with treatment, and active effort on benefits/employment.
+**Outpatient:** CenterPointe, Lincoln, NE.
 
-### Chris's Standard
-Tom's recovery should be treated as a **full-time job**. "I applied, what else?" is not acceptable. He should be:
-1. Actively pursuing employment and building marketability
-2. Engaging with mental health treatment (therapy, medication compliance)
-3. Coordinating with Social Security on his disability application
+**Current medications (changes ongoing):**
+- Olanzapine (Zyprexa): 15mg (reduced from 20mg to address sedation)
+- Cobenfy (xanomeline/trospium): samples, targeting hallucinations
+- Asenapine: newly added; effects not yet established
 
-### Therapeutic Approach
-- **Gray rock method**: recommended by Tom's former therapist Kat (Axis) for handling Tom's manipulation, complaining, threats to leave, and angry outbursts. Be steady, calm, and non-reactive.
-- Tom externalizes blame and can be verbally abusive when challenged ("you've never done anything for me"). These are patterns, not facts.
-- Tom responds better when Miki is actively pushing him — her engagement seems to keep him motivated.
+**GeneSight** pharmacogenomic testing recommended. Check insurance coverage; may be $0 with sliding scale.
+
+**Key concern:** Voices/hallucinations, weight gain, morning sedation.
+
+**Financial policy:** Tom must contribute to medical costs using Hy-Vee income. Must complete sliding fee scale paperwork first.
+
+---
+
+## Treatment History (Corrected March 2026)
+
+| Period | Program / Event | Location |
+|---|---|---|
+| Feb 2020 | Psychotic break, hospitalization, schizophrenia diagnosis | Colorado |
+| 2020–2023 | Family cycling (Miki/Chris, Kent, Jean, Jimmy). Jobs: Amazon (fired ~1 week), retail (quit), liquor store NE (fired) | CO, NE, various |
+| Nov 2023 | We Level Up (inpatient) | Florida |
+| Dec 2023 – Nov 2024 | The Edge / The Forge (long-term residential). Part-time at Vons grocery. | Anaheim, CA |
+| Nov 2024 | Left Forge; rented room from Roberto; continued at Vons | Anaheim area, CA |
+| Jan 2025 | Stopped meds, quit Vons, homeless ~3 weeks (only episode) | California |
+| Feb 2, 2025 | Found. Fled 4 crisis facilities; stabilized at Axis | Palm Springs, CA |
+| Fall 2025 | Returned to The Forge | Anaheim, CA |
+| Oct 2025 | Jean flew Tom to her home; Tom eventually moved to NE | NE |
+| Feb 2026–present | CenterPointe outpatient; Hy-Vee employment | Lincoln, NE |
+
+---
+
+## Approach and Tone
+
+**Miki's role:** Mother, not case manager. Emotional support and strategic guidance. Continued support contingent on medication compliance, treatment engagement, and active effort.
+
+**Chris's standard:** Recovery is a full-time job. "I applied, what else?" is not acceptable.
+
+**Gray rock method:** Recommended by Tom's Axis therapist Kat. Be steady, calm, and non-reactive when Tom complains, threatens, or lashes out.
+
+**Drafting tone:** Firm but caring; factual not emotional. Help Miki hold boundaries without losing compassion. Help Chris stay strategic rather than reactive.
 
 ---
 
 ## File Naming Convention
 
-All new files created in this directory must begin with the ISO date to enable chronological tracking:
-
-```
-YYYY-MM-DD_description.md
-```
-
-Examples:
-- `2026-02-25_call_with_mr_childs.md`
-- `2026-03-01_medicaid_verification_submitted.md`
-- `2026-02-25_letter_to_tom.md`
-
-This applies to all note files, transcripts, letters, and action plans. The existing files already follow this pattern.
-
-**Exceptions:** `CLAUDE.md` and `gemini.md` are exempt — these are LLM context files looked up by name and should not be renamed.
+All new files: `YYYY-MM-DD_description.md`. Exceptions: `CLAUDE.md` and `gemini.md`.
 
 ---
 
-## Key Reference Files
+## Directory Structure
 
-| File | Contents |
-|---|---|
-| `tom_history_2020-2025.md` | Full chronological history: accident, treatments, housing crises, insurance battles |
-| `2026_history.md` | Running log for 2026 — employment, medical, family updates |
-| `tom_action_plan_2026.md` | Actionable task list with deadlines, contacts, financial projections |
-| `2026-02-03_tom_psychiatrist.md` | Transcript of psychiatrist visit — medication plan |
-| `2026-02-18_ne_medicaid_approval.md` | NE Medicaid approval notice |
-| `2026-02-18_ne_medicaid_verification.md` | NE Medicaid verification request (insurance card needed by Mar 20) |
-| `2026-02-19_ca_dss_reminder.md` | CA DDS reminder letter — SS disability deadline March 1 |
-| `2026-01-18_note_from_chris.md` | Chris's perspective on boundaries, Jean's enabling, and expectations |
-| `gemini.md` | Original context note for AI assistants |
+**Active files** (this directory): Current reference documents, running logs, and action plans.
 
----
+**archive/** — Completed artifacts, superseded strategy docs, and resolved deadline notices. Everything in archive has its context preserved in the active files above. Contents can be reproduced from the information in the active files if needed.
 
-## How Claude Should Help
-
-- **Drafting:** Letters to Tom, agencies, or family members that strike the right tone (firm but caring; factual not emotional).
-- **Tracking:** Summarizing what's been done and what's still outstanding.
-- **Strategy:** Thinking through next steps for benefits, medical coordination, or family conversations.
-- **Research:** Benefits rules (SGA, TWP, UWA), Nebraska/California Medicaid, SS disability process.
-- **Transcription cleanup:** Correcting speech-to-text errors (see corrections table above) before saving notes.
-- **Tone calibration:** Miki cares deeply and has given enormous resources. Help her hold firm boundaries without losing her compassion. Chris is already firm — help him stay strategic rather than reactive.
+**uploads/** — Insurance card images (front and back).

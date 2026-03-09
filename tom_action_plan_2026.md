@@ -1,8 +1,8 @@
 # Action Plan: 2026
 
-## **URGENT DEADLINES**
-*   **MARCH 1, 2026:** Respond to California DDS (Social Security) regarding information request.
-*   **MARCH 20, 2026:** Provide Nebraska Medicaid with insurance verification (Haleon/United HealthCare).
+## **DEADLINES**
+*   ~~**MARCH 1, 2026:** Respond to California DDS (Social Security) regarding information request.~~ **DONE.** SSA-3380 completed and submitted with addendum and personal statement from Miki. Extension granted by NE SS office.
+*   **MARCH 20, 2026:** Provide Nebraska Medicaid with insurance verification (Haleon/United HealthCare). Email sent 2/25; Tom to confirm receipt.
 
 ---
 
@@ -113,13 +113,10 @@ Unless the exceptions apply, filing a tax return may not result in a refund, but
 **Goal:** Address hallucinations, weight gain, and sedation while managing costs.
 
 ### **Medication Changes**
-*   **Current:** Olanzapine 20mg → **Lower to 15mg** (to reduce tiredness).
-*   **New Addition:** **Cobenfy** (Samples provided).
-    *   *Purpose:* Treat voices/hallucinations without weight gain/sedation.
-    *   *Instruction:* Start samples immediately.
-*   **Potential Switch:** **Lybalvi** (Pending PA).
-    *   *Purpose:* Replace Olanzapine to control weight gain.
-    *   *Warning:* **DO NOT** take opioids (pain killers) with this.
+*   **Current:** Olanzapine reduced from 20mg to **15mg** (to reduce tiredness/sedation).
+*   **Cobenfy** (samples provided) for hallucinations without weight gain/sedation.
+*   **Asenapine:** Newly added; effects not yet established. Monitoring ongoing.
+*   *Note: Lybalvi was attempted (prior auth sent) but subsequently deprescribed.*
 
 ### **Diagnostics**
 *   **GeneSight Testing:**

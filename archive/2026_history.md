@@ -42,9 +42,7 @@
     *   **2. Address Voices (Hallucinations):** Adding **Cobenfy** (Xanomeline/Trospium).
         *   *Mechanism:* Targets cholinergic receptors (not dopamine), avoiding weight gain/sedation.
         *   *Plan:* Samples provided to start immediately.
-    *   **3. Address Weight Gain:** Attempting to switch to **Lybalvi** (Olanzapine + Samidorphan).
-        *   *Goal:* Same antipsychotic benefit but Samidorphan mitigates weight gain.
-        *   *Status:* Prescription sent for Prior Authorization.
+    *   **3. Address Weight Gain / Side Effects:** **Lybalvi** (Olanzapine + Samidorphan) was attempted (prior auth sent); subsequently deprescribed. **Asenapine** added as new medication — effects not yet established; monitoring ongoing.
 *   **Action Items:**
     *   Fill out sliding fee scale paperwork (completed?).
     *   Nurse to check GeneSight insurance coverage.
